@@ -1,3 +1,6 @@
+# Pande Yogam - 19/10/2022
+
+
 from os import system, name
 
 def Soal(Nomor,NoSoal,Skor):
@@ -89,7 +92,7 @@ def Soal2(Skor):
 
 def KerjakanSoal(Nomor, Skor):
     NoSoal = int(input("Ingin menerjakan dari 1 atau Pilih Nomor ? "))
-    Skor = Soal(Nomor, NoSoal,Skor)
+    Skor = Soal(Nomor, NoSoal, Skor)
 
     return Skor
 
